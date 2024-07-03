@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color :#333;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+.logo{
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.search-bar{
+width: 50%;
+font-size: 1.2rem;
+padding:0.5rem 0.75rem;
+outline: none;
+border: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+color: #fff;
+background-color: transparent;
+}
+.nav-icons{
+    display: flex;
+    gap: 1rem;
+}
+.nav-icons a{
+    color: #fffe;
+    font-size: 1rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.nav-icons a:hover{
+    color:aquamarine;
+}
+.categories {
+    height: 2.5rem;
+    background-color: rgb(228, 43, 33);
+}
+.category-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.category-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+     transition: 0.5s;
+}
+ .category-links a:hover{
+    color:blue ;
+ }
+ .category-links a i{
+    margin-right: 0.6rem;
+    margin-top: 0.5rem;
+ }
+.hero{
+    background-image: url("hero4.png");
+    height: 90vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding:0 8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero h4{
+    padding-bottom: 0.8rem;
+    font-size: 1.5rem;
+    color: rgb(216, 31, 83);
+}
+.hero h2{
+    font: size 4rem;
+}
+.hero h1{
+    font-size: 3.7rem;
+    color: #088178;
+    padding-bottom: 0.5rem;
+}
+.hero p{
+    font-size: 1.2rem;
+    color: rgb(31, 37, 165);
+    padding-bottom: 1rem;
+}
+.hero button{
+    background-image: url("button.png");
+    background-color: transparent;
+    background-size: cover;
+    border: 0;
+    font-size: 1.2rem;
+    width: 20rem;
+    height: 4rem;
+    font-family:cursive;
+    cursor: pointer;
+    
+}
+.hero button:hover{
+    color:#088178;
+}
+.featuers{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.featuers .fe-box{
+    width:12rem;
+    text-align: center;
+    padding:2rem 1rem;
+    border: 1px solid #cce7cc;
+    border-radius: 6px;
+    margin: 1rem 0;
+    transition: 0.3s linear;
+    box-shadow: 20px 20px 30px rgba(0,0,0, 0.05);
+}
+.featuers .fe-box h6{
+    display: inline-block;
+    padding: 9px;
+    font-size: 0.8rem;
+    background-color: #fddde4;
+    color: #088178;
+    border-radius: 5px;
+}
+.featuers .fe-box img{
+    width:100%;
+    margin-bottom: 0.7rem;
+}
+.featuers .fe-box:hover{
+    transform:scale(1.05s);
+    color: #088178;
+    cursor: pointer;
+}
+.products{
+    text-align: center;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+}
+.card{
+    width: 25%;
+    min-width:10rem;
+}
+.card img{
+    width: 100%;
+}
