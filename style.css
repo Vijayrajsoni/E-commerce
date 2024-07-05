@@ -131,7 +131,7 @@ background-color: transparent;
     width:12rem;
     text-align: center;
     padding:2rem 1rem;
-    border: 1px solid #cce7cc;
+    border: 1px solid rgba(236, 198, 63, 0.933);
     border-radius: 6px;
     margin: 1rem 0;
     transition: 0.3s linear;
